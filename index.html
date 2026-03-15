@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Vision Studio - Download</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', -apple-system, sans-serif;
+            background: #1e1e1e;
+            color: #d4d4d4;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        h1 {
+            font-size: 2.4em;
+            font-weight: 300;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #808080;
+            font-size: 1.1em;
+            margin-bottom: 48px;
+        }
+        .release {
+            background: #252526;
+            border: 1px solid #3f3f46;
+            border-radius: 8px;
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+        .release-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .version {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #007acc;
+        }
+        .date {
+            color: #808080;
+            font-size: 0.9em;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #007acc;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 32px;
+            border-radius: 4px;
+            font-size: 1em;
+            font-weight: 500;
+            transition: background 0.2s;
+            margin-bottom: 20px;
+        }
+        .download-btn:hover {
+            background: #1c97ea;
+        }
+        .file-size {
+            color: #808080;
+            font-size: 0.85em;
+            margin-left: 12px;
+        }
+        .features {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #3f3f46;
+        }
+        .features h3 {
+            color: #d4d4d4;
+            font-size: 0.95em;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 4px 0;
+            color: #a0a0a0;
+            font-size: 0.9em;
+        }
+        .features li::before {
+            content: "•";
+            color: #007acc;
+            margin-right: 8px;
+        }
+        .requirements {
+            background: #2d2d30;
+            border-radius: 4px;
+            padding: 16px 20px;
+            margin-top: 16px;
+        }
+        .requirements h3 {
+            color: #d4d4d4;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .requirements p {
+            color: #a0a0a0;
+            font-size: 0.85em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            color: #656565;
+            font-size: 0.8em;
+            margin-top: 48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Vision Studio</h1>
+        <p class="subtitle">WPF + FastAPI + C++ 기반 AI Vision 학습/추론 도구</p>
+
+        <div class="release">
+            <div class="release-header">
+                <span class="version">v0.0.1</span>
+                <span class="date">2026-03-15</span>
+            </div>
+
+            <a href="releases/v0.0.1/AIStudio-v0.0.1-win-x64.zip" class="download-btn">
+                Download
+            </a>
+            <span class="file-size">992 KB · Windows x64</span>
+
+            <div class="features">
+                <h3>Features</h3>
+                <ul>
+                    <li>Multi-tab workspace (AvalonDock docking layout)</li>
+                    <li>Training - 모델 학습 설정 및 실시간 진행률 모니터링</li>
+                    <li>Test / Inference - 단일 이미지 및 배치 예측</li>
+                    <li>Model Architecture Builder - 드래그 앤 드롭 신경망 설계 + PyTorch 코드 생성</li>
+                    <li>Dashboard - 학습 이력 및 시스템 통계</li>
+                    <li>Model Manager - 등록된 모델 관리</li>
+                    <li>Dark theme (VS Code style)</li>
+                </ul>
+            </div>
+
+            <div class="requirements">
+                <h3>Requirements</h3>
+                <p>Windows 10/11 (x64) · .NET 8 Runtime</p>
+            </div>
+        </div>
+
+        <footer>
+            AI Vision Studio &copy; 2026
+        </footer>
+    </div>
+</body>
+</html>
